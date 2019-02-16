@@ -7,3 +7,4 @@ export interface ProductsState {
 
 export const reducers: ActionReducerMap<ProductsState> = {
   pizzas: fromPizza.reducer,
+};
